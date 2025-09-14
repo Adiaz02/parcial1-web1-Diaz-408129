@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulación Facebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">facebook</div>
+    <input type="text" class="search-bar" placeholder="Buscar...">
+  </header>
+
+  <main class="container">
+    <aside class="sidebar">
+      <img src="assets/images/Photo.jpeg" alt="Foto de perfil" class="profile-pic">
+      <h2 class="profile-name">Andrés Felipe Díaz Guzmán</h2>
+        <nav>
+        <ul>
+            <li class="hobbies">Hobbies
+            <ul>
+                <li class="hobby-item"><a href="#">Anime</a></li>
+                <li class="hobby-item"><a href="#">Videojuegos</a></li>
+                <li class="hobby-item"><a href="#">Música</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Amigos</a></li>
+        </ul>
+        </nav>
+
+
+        <div class="friends-list">
+        <div class="friend">
+        <img src="https://i.pravatar.cc/100?img=11" alt="Julian Guzmán">
+        <p>Julian Guzmán</p>
+        </div>
+        <div class="friend">
+        <img src="https://i.pravatar.cc/100?img=20" alt="Valentina Díaz">
+        <p>Valentina Díaz</p>
+        </div>
+        <div class="friend">
+        <img src="https://i.pravatar.cc/100?img=21" alt="Evelyn Guzmán">
+        <p>Evelyn Guzmán</p>
+        </div>
+        <div class="friend">
+        <img src="https://i.pravatar.cc/100?img=12" alt="Juan Fernando">
+        <p>Juan Fernando</p>
+        </div>
+    </div>
+      <button class="btn-ir">Universidad</button>
+    </aside>
+
+    <!-- Contenido dinámico SPA -->
+    <section class="content">
+      <nav class="tabs">
+        <button data-section="muro">Muro</button>
+        <button data-section="info">Info</button>
+        <button data-section="photos">Photos</button>
+        <button data-section="boxes">Boxes</button>
+      </nav>
+
+      <div id="spa-content">
+        <!-- Aquí se carga el contenido dinámico -->
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

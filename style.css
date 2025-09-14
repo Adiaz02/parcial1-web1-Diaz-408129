@@ -1,0 +1,395 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #084D6E;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Layout principal */
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #e4e6eb;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #bbb;
+  margin: 0 auto 10px;
+}
+
+.profile-name {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-ir {
+  margin-top: 15px;
+  width: 100%;
+  padding: 8px;
+  background: #084D6E;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.content ul {
+  padding-left: 20px; /* desplaza hacia la derecha */
+}
+
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  padding: 8px 12px;
+  border: none;
+  background: #e4e6eb;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabs button:hover {
+  background: #d8dadf;
+}
+
+/* Secciones */
+/* Estilos para el área de posts */
+.post {
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+}
+
+.new-post {
+  display: flex;
+  gap: 10px; /* espacio entre input y botón */
+  align-items: center; /* los centra verticalmente */
+}
+
+.post h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1c1e21;
+}
+
+.post .time {
+  font-size: 12px;
+  color: #65676b;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #050505;
+}
+
+/* Botones estilo Facebook */
+.post .actions button {
+  background: #f0f2f5;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.post .actions button:hover {
+  background: #e4e6e9;
+}
+
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 10px;
+}
+
+.photos-grid div {
+  background: #ccc;
+  height: 80px;
+  border-radius: 5px;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #084D6E;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Layout principal */
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #e4e6eb;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* hace la imagen circular */
+  object-fit: cover;  /* recorta la imagen si no es cuadrada */
+  display: block;
+  margin: 0 auto 10px;
+}
+
+
+.profile-name {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-ver {
+  margin-top: 15px;
+  width: 100%;
+  padding: 8px;
+  background: #084D6E;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  padding: 8px 12px;
+  border: none;
+  background: #e4e6eb;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabs button:hover {
+  background: #d8dadf;
+}
+
+/* Secciones */
+.post-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.photos-grid img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.photos-grid div {
+  background: #ccc;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.info-list {
+  list-style: none;       /* Quita los puntos */
+  padding: 0;
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.info-list li {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background: #f5f6f7;    /* Fondo gris claro */
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.info-list strong {
+  color: #084D6E;         /* Azul tipo Facebook */
+}
+
+.friends-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.friend {
+  text-align: center;
+  width: 80px;
+}
+
+.friend img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; /* hace la foto circular */
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.friend p {
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+
+.hobbies ul {
+  margin-left: 20px; /* mueve toda la lista hacia la derecha */
+}
+
+.hobby-item {
+  margin-left: 15px; /* da más sangría a cada hobby */
+}
+
+
+.btn-compartir {
+  background: #084D6E;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;  /* 🔹 separación extra hacia abajo */
+  transition: background 0.3s ease;
+}
+
+
+.btn-compartir:hover {
+  background: #06374f;   /* azul más oscuro al pasar el mouse */
+}
