@@ -91,7 +91,7 @@ body {
 }
 
 .content ul {
-  padding-left: 20px; /* desplaza hacia la derecha */
+  padding-left: 20px;
 }
 
 
@@ -128,8 +128,8 @@ body {
 
 .new-post {
   display: flex;
-  gap: 10px; /* espacio entre input y botón */
-  align-items: center; /* los centra verticalmente */
+  gap: 10px;
+  align-items: center;
 }
 
 .post h4 {
@@ -230,8 +230,8 @@ body {
 .profile-pic {
   width: 100px;
   height: 100px;
-  border-radius: 50%; /* hace la imagen circular */
-  object-fit: cover;  /* recorta la imagen si no es cuadrada */
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
   margin: 0 auto 10px;
 }
@@ -322,7 +322,7 @@ body {
 }
 
 .info-list {
-  list-style: none;       /* Quita los puntos */
+  list-style: none;
   padding: 0;
   margin: 10px 0;
   font-size: 15px;
@@ -332,13 +332,13 @@ body {
 .info-list li {
   padding: 8px 12px;
   margin-bottom: 6px;
-  background: #f5f6f7;    /* Fondo gris claro */
+  background: #f5f6f7;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .info-list strong {
-  color: #084D6E;         /* Azul tipo Facebook */
+  color: #084D6E;
 }
 
 .friends-list {
@@ -356,7 +356,7 @@ body {
 .friend img {
   width: 70px;
   height: 70px;
-  border-radius: 50%; /* hace la foto circular */
+  border-radius: 50%;
   object-fit: cover;
   border: 2px solid #ccc;
 }
@@ -367,11 +367,11 @@ body {
 }
 
 .hobbies ul {
-  margin-left: 20px; /* mueve toda la lista hacia la derecha */
+  margin-left: 20px;
 }
 
 .hobby-item {
-  margin-left: 15px; /* da más sangría a cada hobby */
+  margin-left: 15px;
 }
 
 
@@ -385,11 +385,11 @@ body {
   font-size: 14px;
   font-weight: bold;
   margin-top: 10px;
-  margin-bottom: 15px;  /* 🔹 separación extra hacia abajo */
+  margin-bottom: 15px;
   transition: background 0.3s ease;
 }
 
 
 .btn-compartir:hover {
-  background: #06374f;   /* azul más oscuro al pasar el mouse */
+  background: #06374f;
 }
